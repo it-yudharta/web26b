@@ -14,4 +14,10 @@ function hitung(nilai1) {
 
 const hasil3 = hitung(10);
 const hasil4 = hitung(5);
-console.log('hasil', hasil3, hasil4);
+// console.log('hasil', hasil3, hasil4);
+
+const hitung2 = (nilai) => (nilai * 2) / 5;
+
+const hasil5 = hitung2(10);
+const hasil6 = hitung2(5);
+console.log('hasil', hasil5, hasil6);
